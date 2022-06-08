@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Basics Cheatsheet</title>
+</head>
+<body>
+    <a href="SemanticsDemo.html">Go to HTML Semantics Demo</a>
+    <hr>
+    <!-- Headings -->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <!-- Paragraph -->
+    <p>This is a paragraph. Paragraphs are block elements and have default styling of 1 em at the start and end.</p> 
+    <img src="img/inlineVblockLevelInsert.png" alt="insert1" width="550px">
+    <p>Above is an insert that shows block level and inline level tags. Here is a sample of an inline level tag, <strong>strong</strong>, as well as the inline tag, <em>em</em>, which makes the text italicized.</p>
+    <p>All tags can have attributes. Attributes provide information about an element. They are placed within the start tag and are written in key/value pairs (id="someID")</p>
+    <p>This paragraph is to show links. The following is a link that has an attribute named, target= "_blank". This directs the user to a new tab when following the link: <a href="https://www.traversymedia.com/" target="_blank">Traversy Media</a>.</p>
+    <!-- LISTS -->
+    <ul>There are two kinds of lists. This is an unordered list. It has by default a dot:
+        <li>This is 1st list item and has default margin &padding</li>
+        <li>This is 2nd list item</li>
+    </ul>
+    <ol>There are two kinds of lists. This is an ordered list. It has by default, numbers:
+        <li>This is 1st list item and has default margin &padding</li>
+        <li>This is 2nd list item</li>
+    </0l>
+    <!-- TABLE -->
+    <!-- Used for tabular data only DO NOT USE FOR LAYOUT -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Christine Jackson</td>
+                <td>cj464WebDev@gmail.com</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>Bill Jackson</td>
+                <td>trigrcreep@gmail.com</td>
+                <td>57</td>
+            </tr>
+            <tr>
+                <td>Mandy Jackson</td>
+                <td>aejackson03@gmail.com</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Buddy Jackson</td>
+                <td>wpadfoot@gmail.com</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <!-- FORMS -->
+    <!-- HTML: ONLY THE LOOK OF FORM-- NOT FUNCTIONAL  -->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="First Name">
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName" placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message" placeholder="Would you like to leave a note?"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Age</label>
+            <input type="number" name="age" value="21">
+        </div>
+        <br>
+        <div>
+            <label>Birthday</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <br>
+    <hr>
+    <br>
+    <!-- BUTTON -->
+    <!-- CAN NOT FUNCTION WITHOUT A PROGRAMMING LANGUAGE -->
+   <button>Click Me</button>
+   <br>
+   <br>
+   <!-- IMAGE -->
+   <a href="img/htmlpic.jpeg"><img src="img/htmlpic.jpeg" alt="demoImg" width="200"></a>
+   <br>
+   <!-- QUOTATIONS -->
+   <blockquote cite="https://dzone.com/articles/best-programming-jokes-amp-quotes">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</blockquote>
+   <p>This paragraph is to show how to utilize the "abbr" element. It allows the user to see the abbreviation meaning when hovered over: The<abbr title="World Wide Web">WWW</abbr> is awesome.</p>
+   <br>
+   <p>This paragraph is to show how to utilize the "cite" element. It creates default italics styling to indicate that it is something being cited: <cite>HTML Crash Course</cite> by Brad Traversy</p>
+
+</body>
+</html>
